@@ -2,7 +2,7 @@
 
 echo -n "Please enter ballot name: "
 read ballot_name
-echo -n "Please enter options: "
+echo -n "Please enter your vote (yes or no): "
 read options
 
 while IFS= read -r account_name; do
